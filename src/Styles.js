@@ -12,10 +12,19 @@ export const ana = StyleSheet.create({
     fontWeight: 'bold',
   },
   text2: {
+    marginTop: 25,
+    fontSize: 17,
+    // fontWeight  :"bold",
+    marginBottom: 5,
+    textAlign: 'justify',
+    marginHorizontal: 15,
+    color: '#b30000',
+  },
+  text2: {
     marginTop: 15,
     fontSize: 17,
     // fontWeight  :"bold",
-    marginVertical: 10,
+    marginVertical: 5,
     textAlign: 'justify',
     marginHorizontal: 15,
     color: '#b30000',
@@ -29,7 +38,8 @@ export const ana = StyleSheet.create({
   },
   text4: {
     marginTop: 45,
-    backgroundColor: '#dac1a0',
+    backgroundColor: '#bd7b00',
+    color : '#1a1a1a',
     marginHorizontal: 90,
     padding: 5,
     borderRadius: 7,
@@ -65,17 +75,18 @@ export const anaSecond = StyleSheet.create({
     color: '#b30000',
   },
   touch: {
-    backgroundColor: 'blue',
+    backgroundColor: '#f0cc00',
     borderRadius: 10,
     position: 'absolute',
-    right: 2,
+    left: 110,
     bottom: 2,
   },
   touchText: {
-    color: 'white',
+    color: 'black',
     textAlign: 'center',
     fontSize: 25,
-    padding: 10,
+    paddingHorizontal: 35,
+    paddingVertical: 5,
   },
 });
 export const first = StyleSheet.create({
@@ -85,16 +96,63 @@ export const first = StyleSheet.create({
 export const second = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#e6e6e6',
+    marginTop: 10,
   },
-  text1: {},
+  text1: {
+    backgroundColor: '#404040',
+    fontSize: 25,
+    marginVertical: 10,
+    fontWeight :"bold",
+    padding : 5,
+    color : 'white'
+  },
+  text2: {
+    // backgroundColor : 'red',
+    fontSize: 18,
+    textAlign: 'justify',
+    marginVertical: 15,
+    marginHorizontal: 5,
+  },
+  text3: {
+    fontSize: 18,
+    marginVertical: 5,
+  },
+  text4: {
+    fontSize: 18,
+    marginVertical: 5,
+  },
+  text5: {
+    fontSize: 18,
+    marginVertical: 5,
+  },
+  image: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height / 3,
+  },
+  touch: {
+    backgroundColor: '#404040',
+    borderRadius: 10,
+    position: 'absolute',
+    left: 110,
+    bottom: 10,
+  },
+  touchText: {
+    color: 'white',
+    textAlign: 'center',
+    fontSize: 25,
+    paddingHorizontal: 35,
+    paddingVertical: 5,
+ 
+  },
 });
 export const rest = StyleSheet.create({
   container: {
     padding: 10,
-    flexDirection : "row"
+    flexDirection: 'row',
   },
   text1: {
-      paddingLeft : 15,
+    paddingLeft: 15,
     fontSize: 18,
   },
 });

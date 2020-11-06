@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack' ;
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs' ;
 
-import {AnaFirst,AnaSecond, First ,Second} from './pages'
+import {MainFirst,MainSecond, First ,Second} from './pages'
 
 
 const Stack = createStackNavigator();
@@ -22,15 +22,15 @@ function Restaurant() {
     </Stack.Navigator>
     )
 }
-function Anasayfa() {
+function MainPage() {
     return (
         <Stack.Navigator
         initialRouteName = 'FirstPage'
         screenOptions={{headerShown : false}}
         
         >
-        <Stack.Screen  name='AnaFirstPage' component={AnaFirst}/>
-        <Stack.Screen  name='AnaSecondPage' component={AnaSecond} />
+        <Stack.Screen  name='MainFirstPage' component={MainFirst}/>
+        <Stack.Screen  name='MainSecondPage' component={MainSecond} />
     </Stack.Navigator>
     )
 }
@@ -43,7 +43,7 @@ const Main = () => {
             screenOptions={({ route }) => ({
                 tabBarIcon: ({ focused, color, size }) => {
                     let iconName;
-                    if (route.name === 'Ana Sayfa') {
+                    if (route.name === 'Main Page') {
                         iconName = "gratipay"
                     } else if (route.name === 'Restaurant Page') {
                         iconName = "cutlery"
@@ -58,7 +58,7 @@ const Main = () => {
                 inactiveTintColor: 'gray',
             }}
             >
-                <Tab.Screen name='Ana Sayfa' component={Anasayfa} options={null} />
+                <Tab.Screen name='Main Page' component={MainPage} options={null} />
                 <Tab.Screen name='Restaurant Page' component={Restaurant} />
             </Tab.Navigator>
         </NavigationContainer>
