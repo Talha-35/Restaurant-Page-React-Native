@@ -20,7 +20,7 @@ export const ana = StyleSheet.create({
     marginHorizontal: 15,
     color: '#b30000',
   },
-  text2: {
+  text22: {
     marginTop: 15,
     fontSize: 17,
     // fontWeight  :"bold",
