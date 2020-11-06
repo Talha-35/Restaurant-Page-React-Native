@@ -1,4 +1,4 @@
-export * from './AnaFirst' ;
-export * from './AnaSecond' ;
+export * from './MainFirst' ;
+export * from './MainSecond' ;
 export * from './First' ;
 export * from './Second' ;

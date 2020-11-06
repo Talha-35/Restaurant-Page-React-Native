@@ -174,7 +174,13 @@ const First = (props) => {
 
     const onPressData = () => props.navigation.navigate('SecondPage' ,
     
-    {name : 'Talha' })
+    {name : 'Landhaus Heitmann' , 
+    desc : 'Die Speisen sind sehr lecker und ausreichend. Der Rotwein ist super, das Personal immer freundlich. Im Sommer kann man draußen essen und trinken, fast so wie im Süden.Wir sind viele Jahre Gast in dem griechischen Restaurant in Herzebrock. Ich kenne keinen besseren "Griechen"..',
+    city : 'Dortmund',
+    adress : 'Clarholzer Str. 43, 33442 Herzebrock',
+    phone : +491234564578,
+    image : "https://img-s1.onedio.com/id-5408ac508b0bc1f45a2e90be/rev-0/w-635/listing/f-jpg-webp/s-1cb0cdeeac67cb0ee38e0d939d3ab33af9ef4e58.webp",
+ })
 
     const renderData = (data) => <RestaurantItem onData={onPressData} food={data.item}  />
     
@@ -191,11 +197,5 @@ const First = (props) => {
 
 export {First}
 
-// id : 0,
-// name : 'Istanbul Restaurant',
-// color : '#bfbfbf' ,
-// desc : 'Lokanta veya restoran, ücret karşılığında müşterilere yemek ve içecek hazırlanıp servis edilen yer. Çoğunlukla büyük bir yemek salonu ve mutfaktan meydana gelir. Lokantalar çoğunlukla özel mülktür. ... Bazı lokantalar sundukları yöresel mutfaklarla, bazıları da servis anlayışlarıyla farklılık yaratırlar.',
-// city : 'İstanbul',
-// adress : 'Clarholzer Str. 43, 33442 Herzebrock',
-// image : "{uri : 'https://img-s1.onedio.com/id-5408b30fac0ca4566295910c/rev-0/w-900/h-690/f-jpg/s-231182628be3f13c0e6b4665bdad9ce38ad2afbb.jpg'}",
-// phone : +491234564578
+
+        

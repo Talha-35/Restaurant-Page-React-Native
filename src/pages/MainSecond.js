@@ -188,7 +188,7 @@ const Restaurants = [
 ]
 
 
-const AnaSecond = (props) => {
+const MainSecond = (props) => {
 
 const renderVeri = (data) => <SecondRestaurant adam={data.item}/>
   return (
@@ -211,6 +211,6 @@ const renderVeri = (data) => <SecondRestaurant adam={data.item}/>
   );
 };
 
-export {AnaSecond};
+export {MainSecond};
 
 
