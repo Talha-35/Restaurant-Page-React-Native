@@ -11,6 +11,7 @@ const SecondRestaurant = (props) => {
             source= {{uri : props.adam.image}}
             />
             <Text style={sec.text1}>{props.adam.name}</Text>
+            
         </TouchableOpacity>
     )
 }
