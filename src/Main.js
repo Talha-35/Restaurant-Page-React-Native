@@ -55,8 +55,17 @@ const Main = () => {
             }
             tabBarOptions={{
                 activeTintColor: 'tomato',
-                //icon ve yazıların rengini değiştirir
+                // Seçili olan sayfanın icon ve yazıların rengini değiştirir
                 inactiveTintColor: 'gray',
+                // Seçili olmayan sayfanın icon ve yazıların rengini değiştirir
+                activeBackgroundColor : 'yellow',
+                // bu şekilde arka plan rengi verilebilir
+                inactiveBackgroundColor : 'gray',
+                // bu şekilde de bottom daki sayfa adına style vs verilebilir.
+                labelStyle: {
+                    fontSize: 20,
+                    bottom : 8 ,
+                    } 
             }}
             >
                 <Tab.Screen name='Main Page' component={MainPage} options={null} />
