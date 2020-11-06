@@ -55,6 +55,7 @@ const Main = () => {
             }
             tabBarOptions={{
                 activeTintColor: 'tomato',
+                //icon ve yazıların rengini değiştirir
                 inactiveTintColor: 'gray',
             }}
             >
