@@ -1,11 +1,13 @@
 
 <h1 align="center">Restaurant Page with React-Native</h1>
 
-Project aims to create Yelp Alternative Application with React Native.
+A work about making a Restaurant-Page in React-Native
 
 ## Description
 
-Project aims to create Yelp Alternative Application with React Native.
+A work about making a Restaurant-Page in React-Native
+
+## This is a short video introduction about this app
 
 ![screenshot](screenshot/App_Video.gif)
 
